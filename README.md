@@ -16,6 +16,16 @@ The notebook demonstrates:
 - Implementation of the Deutsch–Jozsa algorithm for 4-bit functions
 - Simulation of quantum circuits using Qiskit
 
+## Results
+
+The notebook demonstrates that:
+
+- Deutsch's algorithm distinguishes constant and balanced single-bit Boolean functions using one oracle query.
+- The Deutsch–Jozsa algorithm generalises this idea to 4-bit Boolean functions.
+- Constant functions produce the all-zero measurement result.
+- Balanced functions produce a non-zero measurement result.
+- Circuit metrics show that although query complexity is one, implementation cost varies depending on oracle construction.
+
 ## Requirements
 
 Required Python packages are listed in `requirements.txt`. The notebook uses [Qiskit](https://qiskit.org/) for building and simulating quantum circuits.
